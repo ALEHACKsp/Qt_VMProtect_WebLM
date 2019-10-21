@@ -95,6 +95,7 @@
     <QtMoc Include="qt_vmprotect_weblm.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="ActivationForm.ui" />
     <QtUic Include="qt_vmprotect_weblm.ui" />
   </ItemGroup>
   <ItemGroup>

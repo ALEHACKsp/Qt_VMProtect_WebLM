@@ -1,29 +1,37 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>Qt_VMProtect_WebLMClass</class>
- <widget class="QMainWindow" name="Qt_VMProtect_WebLMClass" >
-  <property name="objectName" >
-   <string notr="true">Qt_VMProtect_WebLMClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QMainWindow" name="Qt_VMProtect_WebLMClass">
+  <property name="geometry">
    <rect>
-	<x>0</x>
-	<y>0</y>
-	<width>600</width>
-	<height>400</height>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>235</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>Qt_VMProtect_WebLM</string>
   </property>
-  <widget class="QMenuBar" name="menuBar" />
-  <widget class="QToolBar" name="mainToolBar" />
-  <widget class="QWidget" name="centralWidget" />
-  <widget class="QStatusBar" name="statusBar" />
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open Software</string>
+    </property>
+   </widget>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="qt_vmprotect_weblm.qrc"/>
+  <include location="qt_vmprotect_weblm.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>
