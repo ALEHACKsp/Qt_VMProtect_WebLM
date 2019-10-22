@@ -13,6 +13,8 @@ public:
 	ActivationForm(QWidget *parent = Q_NULLPTR);
 	~ActivationForm();
 
+	void ParseStatus(int nStatus);
+	void ProcessSerialNumber(const char* serial);
 	void ActivateLicense();
 	Ui::ActivationForm ui;
 private slots:
