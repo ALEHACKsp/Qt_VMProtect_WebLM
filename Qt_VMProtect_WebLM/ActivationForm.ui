@@ -14,6 +14,14 @@
    <string>Unregistered</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>451</height>
+    </rect>
+   </property>
    <property name="minimumSize">
     <size>
      <width>450</width>
@@ -117,14 +125,14 @@ color: rgb(255, 255, 255);</string>
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_register">
+     <widget class="QPushButton" name="push_register">
       <property name="text">
        <string>Register</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_exit">
+     <widget class="QPushButton" name="push_exit">
       <property name="text">
        <string>Exit</string>
       </property>

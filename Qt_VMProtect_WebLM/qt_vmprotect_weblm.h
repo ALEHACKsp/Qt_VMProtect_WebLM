@@ -12,4 +12,5 @@ public:
 
 private:
 	Ui::Qt_VMProtect_WebLMClass ui;
+
 };
