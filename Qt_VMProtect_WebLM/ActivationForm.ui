@@ -6,140 +6,104 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>450</width>
-    <height>451</height>
+    <width>468</width>
+    <height>469</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Unregistered</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>450</width>
-     <height>451</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>450</width>
-     <height>451</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>450</width>
-     <height>451</height>
-    </size>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_4">
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <layout class="QFormLayout" name="formLayout_2">
-        <item row="0" column="0" colspan="2">
-         <widget class="QPlainTextEdit" name="infoText">
-          <property name="styleSheet">
-           <string notr="true">* { background-color: black;
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QFormLayout" name="formLayout_2">
+         <item row="0" column="0" colspan="2">
+          <widget class="QPlainTextEdit" name="infoText">
+           <property name="styleSheet">
+            <string notr="true">* { background-color: black;
 color: rgb(255, 255, 255); }</string>
-          </property>
-          <property name="plainText">
-           <string>Unregistered version</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <layout class="QFormLayout" name="formLayout">
-        <item row="1" column="0" colspan="2">
-         <widget class="QTextEdit" name="identifier">
-          <property name="styleSheet">
-           <string notr="true">* { background-color: black;
+           </property>
+           <property name="plainText">
+            <string>Unregistered version</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="1" column="0" colspan="2">
+          <widget class="QTextEdit" name="identifier">
+           <property name="styleSheet">
+            <string notr="true">* { background-color: black;
 color: rgb(255, 255, 255); }</string>
-          </property>
-          <property name="placeholderText">
-           <string>IDENTIFIER</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_lic_ident">
-          <property name="text">
-           <string>License identifier for registration:</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_3">
-      <item>
-       <layout class="QFormLayout" name="formLayout_3">
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_user_name">
-          <property name="text">
-           <string>User name:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0" colspan="2">
-         <widget class="QTextEdit" name="textEdit_username">
-          <property name="styleSheet">
-           <string notr="true">* { background-color: black;
-color: rgb(255, 255, 255); }</string>
-          </property>
-          <property name="placeholderText">
-           <string>Your name</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_key">
-          <property name="text">
-           <string>Key</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0" colspan="2">
-         <widget class="QTextEdit" name="textEdit_key">
-          <property name="styleSheet">
-           <string notr="true">background-color: black;
+           </property>
+           <property name="placeholderText">
+            <string>IDENTIFIER</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_lic_ident">
+           <property name="text">
+            <string>License identifier for registration:</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QFormLayout" name="formLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_key">
+           <property name="text">
+            <string>Key</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QTextEdit" name="textEdit_key">
+           <property name="styleSheet">
+            <string notr="true">background-color: black;
 color: rgb(255, 255, 255);</string>
-          </property>
-          <property name="placeholderText">
-           <string>Your activation key</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <widget class="QPushButton" name="push_register">
-      <property name="text">
-       <string>Register</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="push_exit">
-      <property name="text">
-       <string>Exit</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
+           </property>
+           <property name="placeholderText">
+            <string>Your activation key</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="push_register">
+       <property name="text">
+        <string>Register</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="push_exit">
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
