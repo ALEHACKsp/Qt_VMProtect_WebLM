@@ -116,7 +116,7 @@ color: rgb(255, 255, 255); }</string>
 color: rgb(255, 255, 255);</string>
           </property>
           <property name="placeholderText">
-           <string>Your key</string>
+           <string>Your activation key</string>
           </property>
          </widget>
         </item>

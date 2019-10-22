@@ -3,6 +3,7 @@
 #include <processthreadsapi.h>
 #include <QWidget>
 #include "ui_activationform.h"
+#include "VMProtectSDK.h"
 
 class ActivationForm : public QWidget
 {
@@ -12,7 +13,7 @@ public:
 	ActivationForm(QWidget *parent = Q_NULLPTR);
 	~ActivationForm();
 
-private:
+	void ActivateLicense();
 	Ui::ActivationForm ui;
 private slots:
 	void on_push_register_clicked();
