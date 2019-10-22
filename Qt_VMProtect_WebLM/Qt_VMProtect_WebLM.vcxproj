@@ -88,6 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="activationform.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="qt_vmprotect_weblm.cpp" />
   </ItemGroup>
@@ -95,11 +96,14 @@
     <QtMoc Include="qt_vmprotect_weblm.h" />
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="ActivationForm.ui" />
+    <QtUic Include="activationform.ui" />
     <QtUic Include="qt_vmprotect_weblm.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="qt_vmprotect_weblm.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="activationform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

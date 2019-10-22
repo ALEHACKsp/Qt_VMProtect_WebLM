@@ -31,9 +31,15 @@
     <ClCompile Include="qt_vmprotect_weblm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="activationform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="qt_vmprotect_weblm.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="activationform.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -41,7 +47,7 @@
     <QtUic Include="qt_vmprotect_weblm.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="ActivationForm.ui">
+    <QtUic Include="activationform.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
