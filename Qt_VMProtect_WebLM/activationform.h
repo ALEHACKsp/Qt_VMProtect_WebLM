@@ -2,6 +2,8 @@
 #include <windows.h>
 #include <processthreadsapi.h>
 #include <QWidget>
+#include <QMessageBox>
+#include <QDebug>
 #include "ui_activationform.h"
 #include "VMProtectSDK.h"
 
@@ -13,8 +15,6 @@ public:
 	ActivationForm(QWidget *parent = Q_NULLPTR);
 	~ActivationForm();
 
-	void ParseStatus(int nStatus);
-	void ProcessSerialNumber(const char* serial);
 	void ActivateLicense();
 	Ui::ActivationForm ui;
 private slots:
