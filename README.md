@@ -6,7 +6,7 @@ Qt Gui application template using VMProtect **Web License Manager**.
 
 - [x] Activation window
 
-- [] Configuring Web License Manager && ModSecurity
+- [ ] Configuring Web License Manager && ModSecurity
 
 ## Setup
 
