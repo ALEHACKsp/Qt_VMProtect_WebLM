@@ -1,4 +1,5 @@
 #include "activationform.h"
+#include <list>
 
 ActivationForm::ActivationForm(QWidget *parent)
 	: QWidget(parent)
@@ -23,8 +24,6 @@ void ActivationForm::ActivateLicense()
 
 	// AppData\Roaming\QtVMP_Demo
 	QSettings settings(QSettings::IniFormat, QSettings::UserScope, "QtVMP_Demo", "Config");
-
-	//qDebug() << settings.fileName();
 
 	settings.beginGroup("Settings");
 	settings.setValue("key", ui.textEdit_key->toPlainText());
