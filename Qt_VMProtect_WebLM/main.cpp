@@ -4,6 +4,8 @@
 
 bool activate()
 {
+	// QtVMP_Demo folder in %AppData%
+	// Config filename
 	QSettings settings(QSettings::IniFormat, QSettings::UserScope, "QtVMP_Demo", "Config");
 
 	struct Settings {

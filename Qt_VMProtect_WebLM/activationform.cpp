@@ -19,10 +19,11 @@ ActivationForm::~ActivationForm()
 
 void ActivationForm::ActivateLicense()
 {
-	char serial[1024];
+	char serial[5000];
 	int res = VMProtectActivateLicense(ui.textEdit_key->toPlainText().toLocal8Bit(), serial, sizeof(serial));
 
-	// AppData\Roaming\QtVMP_Demo
+	// QtVMP_Demo folder in %AppData%
+	// Config filename
 	QSettings settings(QSettings::IniFormat, QSettings::UserScope, "QtVMP_Demo", "Config");
 
 	settings.beginGroup("Settings");
