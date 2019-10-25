@@ -3,6 +3,7 @@
 #include <processthreadsapi.h>
 #include <QWidget>
 #include <QMessageBox>
+#include <QSettings>
 #include <QDebug>
 #include "ui_activationform.h"
 #include "VMProtectSDK.h"

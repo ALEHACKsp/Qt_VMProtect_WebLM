@@ -20,8 +20,18 @@ void ActivationForm::ActivateLicense()
 {
 	char serial[1024];
 	int res = VMProtectActivateLicense(ui.textEdit_key->toPlainText().toLocal8Bit(), serial, sizeof(serial));
-	//qDebug() << "Serial: " << QString::fromLocal8Bit(serial) << "\r\n";
 
+	// AppData\Roaming\QtVMP_Demo
+	QSettings settings(QSettings::IniFormat, QSettings::UserScope, "QtVMP_Demo", "Config");
+
+	//qDebug() << settings.fileName();
+
+	settings.beginGroup("Settings");
+	settings.setValue("key", ui.textEdit_key->toPlainText());
+	settings.setValue("serial", QString::fromLocal8Bit(serial));
+	settings.endGroup();
+
+	//qDebug() << "Serial: " << QString::fromLocal8Bit(serial) << "\r\n";
 	switch (res) {
 	case ACTIVATION_OK:
 		QMessageBox::information(this, "ACTIVATION_OK", "ACTIVATION OK");
