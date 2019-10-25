@@ -6,18 +6,20 @@ bool activate()
 {
 	QSettings settings(QSettings::IniFormat, QSettings::UserScope, "QtVMP_Demo", "Config");
 
-	struct Options {
+	struct Settings {
 		QString key;
 		QString serial;
 	};
-	Options options;
+	Settings settings_;
 
 	settings.beginGroup("Settings");
-	options.key = settings.value("key", "").toString();
-	options.serial = settings.value("serial", "").toString();
+	settings_.key = settings.value("key", "").toString();
+	settings_.serial = settings.value("serial", "").toString();
 	settings.endGroup();
-	QString serial = options.serial;
-	QString activationKey = options.key;
+
+	QString serial = settings_.serial;
+	QString activationKey = settings_.key;
+
 	DWORD result = 0;
 
 	if (!activationKey.isEmpty() && !serial.isEmpty())
