@@ -10,15 +10,15 @@
 
 class ActivationForm : public QWidget
 {
-	Q_OBJECT
+  Q_OBJECT
 
-public:
-	ActivationForm(QWidget *parent = Q_NULLPTR);
-	~ActivationForm();
+ public:
+  ActivationForm(QWidget *parent = Q_NULLPTR);
+  ~ActivationForm();
 
-	void ActivateLicense();
-	Ui::ActivationForm ui;
-private slots:
-	void on_push_register_clicked();
-	void on_push_exit_clicked();
+  void ActivateLicense();
+  Ui::ActivationForm ui;
+ private slots:
+  void on_push_register_clicked();
+  void on_push_exit_clicked();
 };

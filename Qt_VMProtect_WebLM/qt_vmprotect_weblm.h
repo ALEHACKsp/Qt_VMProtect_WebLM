@@ -5,12 +5,12 @@
 
 class Qt_VMProtect_WebLM : public QMainWindow
 {
-	Q_OBJECT
+  Q_OBJECT
 
-public:
-	Qt_VMProtect_WebLM(QWidget *parent = Q_NULLPTR);
+ public:
+  Qt_VMProtect_WebLM(QWidget *parent = Q_NULLPTR);
 
-private:
-	Ui::Qt_VMProtect_WebLMClass ui;
+ private:
+  Ui::Qt_VMProtect_WebLMClass ui;
 
 };
