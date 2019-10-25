@@ -15,3 +15,7 @@ Qt Gui application template using VMProtect **Web License Manager**.
 2. Add __forceinline or VMProtect macro.
 
 3. Debug in `Ida Pro`
+
+## Screen
+
+![](doc/screen.png)

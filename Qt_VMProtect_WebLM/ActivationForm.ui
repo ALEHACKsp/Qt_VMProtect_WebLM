@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>468</width>
-    <height>469</height>
+    <width>345</width>
+    <height>263</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Unregistered</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_5">
+  <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_4">
      <item>
@@ -38,26 +38,7 @@ color: rgb(255, 255, 255); }</string>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <layout class="QFormLayout" name="formLayout">
-         <item row="1" column="0" colspan="2">
-          <widget class="QTextEdit" name="identifier">
-           <property name="styleSheet">
-            <string notr="true">* { background-color: black;
-color: rgb(255, 255, 255); }</string>
-           </property>
-           <property name="placeholderText">
-            <string>IDENTIFIER</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_lic_ident">
-           <property name="text">
-            <string>License identifier for registration:</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
+        <layout class="QFormLayout" name="formLayout"/>
        </item>
       </layout>
      </item>

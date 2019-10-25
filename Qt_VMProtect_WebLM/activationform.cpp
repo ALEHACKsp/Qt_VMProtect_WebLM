@@ -5,11 +5,6 @@ ActivationForm::ActivationForm(QWidget *parent)
   : QWidget(parent)
 {
   ui.setupUi(this);
-  // hwid textedit
-  int nSize = VMProtectGetCurrentHWID(NULL, 0);
-  char *p = new char[nSize];
-  VMProtectGetCurrentHWID(p, nSize);
-  ui.identifier->setText(p);
 }
 
 ActivationForm::~ActivationForm()
