@@ -21,10 +21,6 @@ bool activate()
   DWORD result = 0;
   if (!activationKey.isEmpty() && !serial.isEmpty())
   {
-    if ((result = VMProtectActivateLicense(activationKey.toLocal8Bit().data(), serial.toLocal8Bit().data(), 5000)) != 0)
-    {
-      return false;
-    }
     if ((result = VMProtectSetSerialNumber(serial.toLocal8Bit().data())) != 0)
     {
       return false;
